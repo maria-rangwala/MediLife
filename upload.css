@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url(bg-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #3d7794;
+    padding: 40px,70px,40px,70px;
+}
+h1{
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+    color: #FFFFFF;
+}
+
+form{
+    background-color:#86C1E2;
+    opacity:95%;
+    border-radius: 15%;
+    margin: 60px;
+    padding: 60px;
+    /* color: #FFFFFF; */
+    line-height: 1;
+    text-align: justify;
+}
+
+table{
+    justify-content: space-evenly;
+    border:5px;
+    height: 100%;
+    width:100%;
+}
+.head{
+    display: flex;
+}
+.head1{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: transparent;
+    border: 1;
+    border-color: #000082;
+    border-style: none;
+    /* border-radius: 15%; */
+    height: 25px;
+    width: 100%;
+    margin: 15px;
+    text-decoration: none;
+padding: 2px;
+}
+input::placeholder,textarea::placeholder{
+    color:#113760;
+    text-align: center;
+}
+textarea{
+    background-color: transparent;
+    border-style: none;
+
+    border: 2;
+    border-color: #000082;
+    /* border-radius: 15%; */
+    height: 40px;
+    width: 100%;
+    margin: :15px;
+    text-decoration:none;
+padding: 2px;
+
+}
+.label{
+    font-size: 1.2em;
+}
+label{
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    align-items: center;
+}
+.customer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.ship-to{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.bill-to{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    align-items: center;
+}
+tr{
+    justify-content: center;
+    text-align: center;
+}
+td{
+    justify-content: center;
+    text-align: center;
+    padding: 7px;
+} 
+.bill{
+    background-color:white;
+    opacity:95%;
+    border-color: #cd3a69;
+    border: 2px;
+    margin: 40px;
+    padding: 40px;
+    line-height: 1;
+    text-align: center;
+    border-style: solid;
+}
+button{
+    color:#113760;
+}

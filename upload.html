@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload</title>
+    <link rel="stylesheet" href="upload.css"/>
+</head>
+<body>
+    <h1>PATIENTS REPORT</h1>
+<div class="invoice">
+    <header>
+        <form onsubmit="event.preventDefault();onformSubmit()">
+            <center><table id="company">
+                <tr>
+                <td colspan="3">
+        <div class="label">
+            <div class="head">
+                <div class="company">
+        <label>Hospital details:</label><br/>
+        <input type="text" id="name" placeholder="enter hospital name here" required/><br/>
+        <textarea placeholder="enter address here" id="address" required></textarea><br/>
+        <input type="number" id="mobile" placeholder="enter contact here" required/><br/>
+        <input type="email" id="email" placeholder="enter email here" required/><br/>
+    </div>
+</td>
+<td>
+    <div class="head1">
+        <div >
+        <label>Doctor's Detail:</label>
+        
+        <input type="text" id="doc-name" placeholder="enter Doctor's name" required/>
+        <!-- <label>Doctor's ID :</label><br/> -->
+        
+        <input type="text" id="doctor-id" placeholder="enter Doctor's ID" required/><br/>
+        </div>
+        <div>
+        <!-- <label>Doctor's Contact :</label><br/> -->
+        <input type="number" id="mobile1"  placeholder="enter contact number"/><br/>
+        <label>Issue date :</label>
+        <br/>
+        <input type="date" id="issue" style="width: 50%; text-align: center;" required/>
+        </div>
+    </td>
+    </div>
+    </div>
+    </div>
+</td>
+</tr>
+<tr>
+    <td colspan="4">
+        <label style="font-weight: bold; font-size: large;">Patient's Detail:</label>
+    </td>
+</tr>
+<tr>
+    <div class="customer">
+        <td colspan="2">
+        <div class="bill-to">
+            <!-- <label style="font-weight: bold; font-size: large;">Patient's Detail:</label> -->
+            <input type="text" id="name1" placeholder="enter first name" required/><br/>
+            <input type="text" id="midname" placeholder="enter middle name"/><br/>
+        <input type="text" id="surname" placeholder="enter surname " required/><br/>
+        <input type="text" id="patient-id" placeholder="enter patient id"/><br/>
+        </div>
+    </td>
+    <td colspan="2">
+        <div class="ship-to">
+        <label></label>
+        <input type="number" id="age" placeholder="enter patients age" required/><br/>
+        <textarea placeholder="enter address here" id="address2" required></textarea><br/>
+        <input type="number" id="mobile2" placeholder="enter contact details here" required/><br/>
+        <input type="email" id="email2" placeholder="enter email here" required/><br/>
+        </div>
+        </div>
+    </div>
+</td>
+
+
+</tr>
+</table>
+</center>
+<hr/>
+<!-- <center>
+    <div class="bill">
+    <caption>INVOICE</caption>
+    <table border="2px" style="border-color: black;">
+            <th colspan="3">Description</th>
+            <th>Qty</th>
+            <th>Unit Price</th>
+            <th>Amount</th>
+            <th></th>
+        <tr>
+            <td colspan="3"><input type="text" style="margin: 0; border-color: black;"/></td>
+            <td><input type="number" style="margin: 0; border-color: black;"/></td>
+            <td><input type="number" style="margin: 0; border-color: black;"/></td>
+            <td><input type="number" style="margin: 0; border-color: black;"/></td>
+
+        </tr>
+        <tr >
+            <td colspan="3" rowspan="3">THANKYOU!!<BR/>HOPE TO SEE YOU AGAIN</td>
+            <td colspan="2">Amount</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2">Discount</td>
+            <td></td>
+
+        </tr>
+        <tr>
+            
+            <td colspan="2">Total</td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td colspan="6"><input type="reset" value="reset" style="margin: 0; border-color: black;"/></td>
+        </tr>
+    </table>
+</div> 
+</center> -->
+<br/>
+<br/>
+<center>
+<label>Upload Patient's Report</label>
+<center>
+    <div class="upload">
+        <input type="file" value="file" id="upload" required/>
+    </div>    
+</center>
+</center>
+    <input type="submit" value="Submit" style="color:#174e3b;"/>
+<input type="reset" value="Reset" style="color:#b7834f;"/>
+</form>
+    </header>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
